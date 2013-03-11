@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+body	{
+margin-left: auto;
+margin-right: auto;
+}
+#wrapper	{
+width: 600px;
+margin-left: auto;
+margin-right: auto;
+}
+header	{
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+.head	{
+color: blue;
+}
+nav	{
+text-align: center;
+}
+nav a {
+margin: 2em;
+}
+#content	{
+margin-left: auto;
+margin-right: auto;
+}
+#innercontent	{
+text-align: center;
+}
+#left	{
+float: left;
+width: 380px;
+}
+#left h2	{
+color: purple;
+}
+#right	{
+float: left;
+width: 220px;
+}
+#right img {
+height: 200px;
+width: 200px;
+}
+hr	{
+border-top: 8px solid #00FF00;
+}
+h2.blue	{
+color: blue;
+}
+
+h3.purple	{
+color: purple;
+}
+
+footer	{
+padding-top: 5px;
+clear: both;
+border-top: 8px double black;
+width: 600px;
+margin-right: auto;
+margin-left: auto;
+display: block;
+}
+footer address	{
+display: inline;
+margin-right: 20px;
+}
+footer p	{
+display: inline;
+margin-right: 20px;
+}
+a:link {
+text-decoration: none;
+}
+a:hover	{
+text-decoration: underline;
+color: red;
+text-transform:uppercase;
+}
+img	{
+float: right;
+}
